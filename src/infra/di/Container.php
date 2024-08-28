@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Infra\Di;
+namespace Infra\Di;
 
 use Psr\Container\ContainerInterface;
 use Slim\Psr7\Response;

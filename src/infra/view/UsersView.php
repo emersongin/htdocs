@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Infra\View;
+namespace Infra\View;
 
 class UsersView {
   public static function html(): string {

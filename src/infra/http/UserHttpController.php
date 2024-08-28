@@ -1,12 +1,12 @@
 <?php
 
-namespace Src\Infra\Http;
+namespace Infra\Http;
 
-use Src\Infra\View\UsersView;
+use Infra\View\UsersView;
 
 class UserHttpController {
   public function __construct(
-    readonly private HttpServer $httpServer
+    readonly private HttpServerInterface $httpServer
   ) {
     $this->httpServer->get('/', function ($request, $response, $args) {
       $response->getBody()->write('Hello, World!');

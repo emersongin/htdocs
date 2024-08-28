@@ -1,10 +1,10 @@
 <?php
 
-namespace Src\Infra\Http;
+namespace Infra\Http;
 
 use Slim\Factory\AppFactory;
 
-class SlimHttpServer implements HttpServer {
+class SlimHttpServer implements HttpServerInterface {
   private $app;
 
   public function __construct() {
