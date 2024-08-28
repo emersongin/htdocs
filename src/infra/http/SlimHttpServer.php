@@ -20,6 +20,11 @@ class SlimHttpServer implements HttpServerInterface {
   }
 
   public function run(): void {
+    $this->setMiddlewares();
     $this->app->run();
+  }
+
+  public function setMiddlewares(): void {
+    $this->app->addBodyParsingMiddleware();
   }
 }
