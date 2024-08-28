@@ -6,9 +6,9 @@ require_once __DIR__ . '/../bootstrap.php';
 use Psr\Http\Message\ServerRequestInterface;
 use Slim\Factory\AppFactory;
 use Slim\Psr7\Response;
-use Src\Infra\Di\Container;
-use Src\Infra\Http\UserHttpController;
-use Src\Infra\Http\SlimHttpServer;
+use Infra\Di\Container;
+use Infra\Http\UserHttpController;
+use Infra\Http\SlimHttpServer;
 
 try {
   // $container = new Container();
