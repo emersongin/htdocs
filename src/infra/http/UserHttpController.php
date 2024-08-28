@@ -28,7 +28,7 @@ class UserHttpController {
       $inputDto = new CreateUserInputDto($body['name'], $body['password']);
       $output = $createUserUseCase->execute($inputDto);
       $response = $response->withHeader('Content-Type', 'application/json');
-      $response = $response->withStatus(200);
+      $response = $response->withStatus(201);
       $response->getBody()->write(json_encode($output));
       return $response;
     });
