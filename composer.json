@@ -2,7 +2,9 @@
     "name": "emers/layers",
     "autoload": {
         "psr-4": {
-            "Src\\": "src/"
+            "App\\": "src/app/",
+            "Infra\\": "src/infra/",
+            "Domain\\": "src/domain/"
         }
     },
     "authors": [
