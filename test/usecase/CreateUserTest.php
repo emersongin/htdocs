@@ -2,18 +2,18 @@
 
 namespace Tests;
 
-use App\CreateUserInputDto;
-use App\CreateUserOutputDto;
-use App\CreateUserUseCase;
+use App\Usecase\CreateUserInputDto;
+use App\Usecase\CreateUserOutputDto;
+use App\Usecase\CreateUser;
 use Infra\Database\DataBaseMemory;
 use Infra\Repository\UserRepositoryMemory;
 use PHPUnit\Framework\TestCase;
 
-class CreateUserUseCaseTest extends TestCase {
+class CreateUserTest extends TestCase {
     public function testMustCreateUser() {
         $dataBase = new DataBaseMemory();
         $userRepository = new UserRepositoryMemory($dataBase);
-        $useCase = new CreateUserUseCase($userRepository);
+        $useCase = new CreateUser($userRepository);
         $name = 'John Doe';
         $password = '123';
         $inputDto = new CreateUserInputDto($name, $password);

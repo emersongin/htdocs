@@ -1,11 +1,11 @@
 <?php
 
-namespace App;
+namespace App\UseCase;
 
 use Infra\Repository\UserRepositoryInterface;
 use Domain\User;
 
-class CreateUserUseCase {
+class CreateUser {
   public function __construct(
     private UserRepositoryInterface $userRepository
   ) {}
