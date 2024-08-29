@@ -1,6 +1,6 @@
 <?php
 
-namespace Infra\Http;
+namespace Chiroptera\Layers\Infra\Http;
 
 interface HttpServerInterface {
   public function get(string $route, callable $callback): void;

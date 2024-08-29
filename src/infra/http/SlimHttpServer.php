@@ -1,6 +1,6 @@
 <?php
 
-namespace Infra\Http;
+namespace Chiroptera\Layers\Infra\Http;
 
 use Slim\Factory\AppFactory;
 

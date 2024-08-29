@@ -1,6 +1,6 @@
 <?php
 
-namespace Infra\Di;
+namespace Chiroptera\Layers\Infra\Di;
 
 use Psr\Container\ContainerInterface;
 use Slim\Psr7\Response;

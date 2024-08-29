@@ -6,12 +6,12 @@ require_once __DIR__ . '/../bootstrap.php';
 use Psr\Http\Message\ServerRequestInterface;
 use Slim\Factory\AppFactory;
 use Slim\Psr7\Response;
-use Infra\Di\Container;
-use Infra\Http\UserHttpController;
-use Infra\Http\SlimHttpServer;
-use Infra\Database\DataBaseMemory;
-use Infra\Repository\UserRepositoryMemory;
-use App\CreateUser;
+use Chiroptera\Layers\Infra\Di\Container;
+use Chiroptera\Layers\Infra\Http\UserHttpController;
+use Chiroptera\Layers\Infra\Http\SlimHttpServer;
+use Chiroptera\Layers\Infra\Database\DataBaseMemory;
+use Chiroptera\Layers\Infra\Repository\UserRepositoryMemory;
+use Chiroptera\Layers\App\CreateUser;
 
 try {
   $container = Container::getInstance();

@@ -1,9 +1,9 @@
 <?php
 
-namespace App\UseCase;
+namespace Chiroptera\Layers\App\UseCase;
 
-use Infra\Repository\UserRepositoryInterface;
-use Domain\User;
+use Chiroptera\Layers\Infra\Repository\UserRepositoryInterface;
+use Chiroptera\Layers\Domain\User;
 
 class CreateUser {
   public function __construct(

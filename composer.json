@@ -2,9 +2,7 @@
     "name": "emers/layers",
     "autoload": {
         "psr-4": {
-            "App\\": "src/app/",
-            "Infra\\": "src/infra/",
-            "Domain\\": "src/domain/"
+            "Chiroptera\\Layers\\": "src/"
         }
     },
     "authors": [

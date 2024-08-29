@@ -1,6 +1,6 @@
 <?php
 
-namespace Domain;
+namespace Chiroptera\Layers\Domain;
 
 class User {
   private int | null $id = null;

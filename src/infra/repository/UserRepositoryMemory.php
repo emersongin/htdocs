@@ -1,9 +1,9 @@
 <?php
 
-namespace Infra\Repository;
+namespace Chiroptera\Layers\Infra\Repository;
 
-use Domain\User;
-use Infra\Database\DataBaseInterface;
+use Chiroptera\Layers\Domain\User;
+use Chiroptera\Layers\Infra\Database\DataBaseInterface;
 
 class UserRepositoryMemory implements UserRepositoryInterface {
   public function __construct(

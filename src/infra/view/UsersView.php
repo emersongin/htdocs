@@ -1,6 +1,6 @@
 <?php
 
-namespace Infra\View;
+namespace Chiroptera\Layers\Infra\View;
 
 class UsersView {
   public static function html(): string {

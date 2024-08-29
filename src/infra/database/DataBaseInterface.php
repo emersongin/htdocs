@@ -1,6 +1,6 @@
 <?php
 
-namespace Infra\Database;
+namespace Chiroptera\Layers\Infra\Database;
 
 interface DataBaseInterface {
   public function count(string $table): int;

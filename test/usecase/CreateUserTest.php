@@ -2,11 +2,9 @@
 
 namespace Tests;
 
-use App\Usecase\CreateUserInputDto;
-use App\Usecase\CreateUserOutputDto;
-use App\Usecase\CreateUser;
-use Infra\Database\DataBaseMemory;
-use Infra\Repository\UserRepositoryMemory;
+use Chiroptera\Layers\App\Usecase\{CreateUserInputDto, CreateUserOutputDto, CreateUser};
+use Chiroptera\Layers\Infra\Database\DataBaseMemory;
+use Chiroptera\Layers\Infra\Repository\UserRepositoryMemory;
 use PHPUnit\Framework\TestCase;
 
 class CreateUserTest extends TestCase {

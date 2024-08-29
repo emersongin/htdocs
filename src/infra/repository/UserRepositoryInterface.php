@@ -1,8 +1,8 @@
 <?php
 
-namespace Infra\Repository;
+namespace Chiroptera\Layers\Infra\Repository;
 
-use Domain\User;
+use Chiroptera\Layers\Domain\User;
 
 interface UserRepositoryInterface {
   public function save(User $user): User;

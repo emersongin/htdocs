@@ -1,10 +1,10 @@
 <?php
 
-namespace Infra\Http;
+namespace Chiroptera\Layers\Infra\Http;
 
-use Infra\View\UsersView;
-use Infra\Di\Container;
-use App\CreateUserInputDto;
+use Chiroptera\Layers\Infra\View\UsersView;
+use Chiroptera\Layers\Infra\Di\Container;
+use Chiroptera\Layers\App\CreateUserInputDto;
 
 class UserHttpController {
   public function __construct(

@@ -1,6 +1,6 @@
 <?php
 
-namespace Infra\Database;
+namespace Chiroptera\Layers\Infra\Database;
 
 class DataBaseMemory implements DataBaseInterface {
   private $tables = [];
